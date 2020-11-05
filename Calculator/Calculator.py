@@ -2,7 +2,7 @@ from Calculator.Addition import addition
 from Calculator.Subtraction import subtraction
 from Calculator.Multiplication import multiplication
 from Calculator.Division import division
-from Calculator.Square import square
+from Calculator.Square import squared
 from Calculator.Root import root
 
 class Calculator:
@@ -28,7 +28,7 @@ class Calculator:
         return self.result
 
     def squared(self, a):
-        self.result = square(a)
+        self.result = squared(a)
         return self.result
 
     def root(self, a):
